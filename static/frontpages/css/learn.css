@@ -1,0 +1,118 @@
+/* banner */
+.banner {
+    margin-top: 104px;
+}
+.banner img {
+    width: 100%;
+}
+/* 四个标签 */
+.four-tabs {
+    width: 1200px;
+    margin: 0 auto;
+}
+.four-tabs ul li {
+    width: 300px;
+    height: 70px;
+    line-height: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #b7bef2;
+    float: left;
+}
+.four-tabs ul li a * {
+    float: left;
+}
+.four-tabs ul li a img {
+    padding-top: 15px;
+    padding-left: 70px;
+    padding-right: 35px;
+}
+.four-tabs ul li a p {
+    font-size: 24px;
+    font-family: 'Microsoft YaHei';
+}
+.four-tabs ul li:last-child {
+    margin-right: 0;
+}
+.four-tabs ul li a {
+    display: inline-block;
+}
+.four-tabs ul li:nth-of-type(2) {
+    border-bottom:2px solid #ffffff;
+}
+.four-tabs ul li:nth-of-type(3) {
+    border-bottom:2px solid #ffffff;
+}
+.four-tabs ul li:nth-of-type(4) {
+    border-bottom:2px solid #ffffff;
+}
+/* 四个标签结束 */
+
+/* 学习文章列表 */
+
+.learn-article {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.learn-article ul li {
+    width: 590px;
+    margin-right: 20px;
+    border: 1px solid #a7a7a7;
+    float: left;
+    margin-bottom: 20px;
+}
+.learn-article ul li:nth-of-type(2n+2) {
+    margin-right: 0;
+}
+.learn-article ul li img {
+    width: 230px;
+    height: 180px;
+    margin: 27.5px 15px;
+    float: left;
+}
+.learn-article-right {
+    width: 328px;
+    height: 180px;
+    margin: 27.5px 0;
+    float: left;
+    padding-right: 15px;
+}
+.learn-article h4 {
+    font-size: 18px;
+    font-family: '黑体';
+    margin-bottom: 15px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.learn-article time {
+    float: left;
+    font-size: 14px;
+    font-family: '黑体';
+    margin-right: 30px;
+    margin-bottom: 15px;
+}
+.learn-article p {
+    float: left;
+    font-size: 14px;
+    font-family: '黑体';
+    margin-bottom: 15px;
+    color: #2a2a2a;
+}
+.learn-article p span {
+    color:#0093dd;
+}
+.learn-article p:nth-of-type(1) {
+    width: 160px;
+}
+.learn-article h4:hover {
+    color: #0093dd;
+}
+a:link,
+a:visited,
+a:focus,
+a:active {
+    color:#2a2a2a;
+}

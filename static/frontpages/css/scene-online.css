@@ -1,0 +1,195 @@
+/* banner */
+.scene-online-banner-wrap {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    height: 468px;
+    background: url(../images/scene-online/scene.png) no-repeat center;
+    padding: 20px auto;
+    margin-top: 105px;
+}
+.scene-online-banner {
+    width: 1200px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+/* 工地详情 */
+.scene-details-wrap {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    background: #f1f6f9;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.scene-details {
+    width: 1200px;
+    margin: 0 auto;
+    background: #ffffff;
+    height: 166px;
+    padding: 35px 25px;
+    position: relative;
+}
+.scene-details h2 {
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+.scene-details ul li {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.scene-details-in {
+    width: 500px;
+    height: 166px;
+}
+.scene-details button {
+    width: 215px;
+    height: 70px;
+    background: #0093dd;
+    border: none;
+    outline: none;
+    position: absolute;
+    top:48px;
+    right: 25px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.scene-details button:hover {
+    background: gray;
+}
+/* 工地进程 */
+.progress-list-wrap {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    background:#f1f6f9;
+    margin-bottom: 60px;
+    padding-bottom: 30px;
+}
+.progress-list {
+    width: 1200px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-left: 3px solid #0093dd;
+}
+.progress-list-title {
+    padding: 30px 15px 15px 15px;
+}
+.progress-list-active {
+    font-size: 18px;
+    color: #0093dd;
+    font-family: '黑体'', Tahoma, Geneva, Verdana, sans-serif;
+}
+.progress-list ul li {
+    position: relative;
+}
+.progress-list-circle {
+    position: absolute;
+    left:-7.5px;
+    top:35px;
+    width: 15px;
+    height: 15px;
+    background: #0093dd;
+    border-radius: 50%;
+}
+.progress-list-pics {
+    padding-left: 15px;
+}
+.progress-list-pics > ul > li {
+    float: left;
+    margin-right: 14px;
+    margin-bottom: 14px;
+}
+.progress-list-pics > ul > li:nth-of-type(4n+4) {
+    margin-right: 0;
+}
+/* 查看更多SEO */
+.findMore {
+    width: 1200px;
+    height: 344px;
+    margin: 60px auto;
+    background: #ffffff;
+    position: relative;
+}
+.findMore > a:nth-of-type(1) {
+    padding: 20px;
+    font-size: 20px;
+    color: #0093dd;
+    font-weight: 700;
+    display: block;
+}
+.findMore > a:nth-of-type(2) {
+    position: absolute;
+    top:20px;
+    right: 20px;
+}
+.findMore > a:hover {
+    color: #0093dd;
+}
+.findMore ul {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.findMore li {
+    width: 284px;
+    height: 300px;
+    margin-right: 8px;
+}
+.findMore li p {
+    position: relative;
+    padding-left: 10px;
+}
+.findMore li p::before {
+    content: '';
+    margin-right: 10px;
+    width: 2px;
+    height: 24px;
+    background: #0093dd;
+    display: block;
+    position: absolute;
+    left:0;
+    top:0;
+}
+.findMore li p span {
+    float: right;
+    font-size: 12px;
+    line-height: 24px;
+}
+.findMore li:nth-of-type(4) {
+    margin-right: 0px;
+}
+.findMore li a:hover {
+    color: #000000;
+}
+/* location */
+.location {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    top:0;
+    left: 0;
+    background: #f1f6f9;
+    padding-top: 20px;
+}
+.location1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+.location1200 p a {
+    font-size: 14px;
+}
+.location1200 p a::after {
+    content: '>';
+    padding: 5px;
+}
+.location1200 p a:last-child::after {
+    content: '';
+}
+/* locationEnd */

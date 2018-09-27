@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页-品创饰家</title>
+    <link rel="stylesheet" href="static/frontpages/css/index.css">
+    <link rel="stylesheet" href="static/frontpages/css/font-awesome.min.css">
+    <link rel="stylesheet" href="static/frontpages/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="static/frontpages/css/swiper.css">
+    <link rel="stylesheet" href="static/frontpages/css/photo-sphere-viewer.min.css">
+    <!-- <script src="static/frontpages/js/vr/three.min.js"></script>
+    <script src="static/frontpages/js/vr/D.min.js"></script>
+    <script src="static/frontpages/js/vr/doT.min.js"></script>
+    <script src="static/frontpages/js/vr/uevent.min.js"></script>
+    <script src="static/frontpages/js/vr/photo-sphere-viewer.min.js"></script> -->
+</head>
+
+<body>
+    <!-- 导航栏 -->
+    <div class="nav-wrap">
+        <div class="nav clearfix">
+            <img src="static/frontpages/images/index/logo-w.png" alt="品创饰家LOGO">
+            <div class="nav-city-wrap">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <a>慈溪</a>
+            </div>
+            <ul class="clearfix">
+                <li>
+                    <a class="nav-active">首页</a>
+                </li>
+                <li>
+                    <a href="case.html">装修案例</a>
+                </li>
+                <li>
+                    <a href="discounts.html">省钱装修</a>
+                    <ul class="down-menu">
+                        <li>
+                            <a href="get-price.html">在线报价</a>
+                        </li>
+                        <li>
+                            <a href="discounts.html">免费设计</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="scene.html">在线工地</a>
+                </li>
+                <li>
+                    <a href="complete.html">整装产品</a>
+                </li>
+                <li>
+                    <a href="one-step-renovation.html">一站式装修</a>
+                </li>
+                <li>
+                    <a href="learn.html">学装修</a>
+                </li>
+                <li>
+                    <a href="aboutus.html">关于我们</a>
+                </li>
+            </ul>
+            <!-- 搜索框备用 -->
+            <!-- <div class="nav-search">
+                <form action="" class="nav-search-from clearfix">
+                    <input type="text" placeholder="请输入搜索关键词" class="search-div">
+                    <button type="button">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                </form>
+            </div> -->
+            <div class="nav-contact-wrap clearfix">
+                <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                <p>
+                    <b>0574-63861216</b>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- 导航栏结束 -->
+    <!-- 轮播区域 -->
+    <div class="lunhuan">
+        <div id="lunhuanback">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./static/frontpages/images/index/banner1.jpg" alt="品创饰家" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./static/frontpages/images/index/lunhuan.jpg" alt="品创饰家" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./static/frontpages/images/index/lunhuan2.jpg" alt="品创饰家" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./static/frontpages/images/index/lunhuan3.jpg" alt="品创饰家" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./static/frontpages/images/index/lunhuan4.jpg" alt="品创饰家" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="lunhuanhuakuai">
+            <article class="htmleaf-container">
+                <section id="content">
+                    <div class="cube">
+                        <div class="a"></div>
+                        <div class="b"></div>
+                        <div class="c"></div>
+                        <div class="d"></div>
+                        <div id="slider-range-min"></div>
+                    </div>
+                    <div class="budget">
+                        <form action="" class="banner-form">
+                            <label for=""></label>
+                            <input type="text" id="amount" placeholder="请输入您的面积" onkeyup="value=value.replace(/[^\d]/g,'')">
+                            <label for=""></label>
+                            <input type="text" placeholder="请输入您的手机号码" onkeyup="value=value.replace(/[^\d]/g,'')">
+                            <button class="banner-get-price" type="button">马上报价</button>
+                        </form>
+                    </div>
+                </section>
+            </article>
+        </div>
+    </div>
+    <!-- 轮播区域结束 -->
+
+    <!-- 引导区域 -->
+    <div class="yd">
+        <div class="yd-wrap">
+            <a href="#" class="mr2667">
+                <div class="yd-item">
+                    <div class="yd-icon">
+                        <img src="static/frontpages/images/index/tk.png" alt="装修案例">
+                    </div>
+                    <div class="yd-text">
+                        <h2>装修案例</h2>
+                        <span>优选千套案例</span>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="mr2667">
+                <div class="yd-item">
+                    <div class="yd-icon">
+                        <img src="static/frontpages/images/index/team.png" alt="资深设计">
+                    </div>
+                    <div class="yd-text">
+                        <h2>资深设计</h2>
+                        <span>实力认证设计师</span>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="mr2667">
+                <div class="yd-item">
+                    <div class="yd-icon">
+                        <img src="static/frontpages/images/index/gd.png" alt="在线工地">
+                    </div>
+                    <div class="yd-text">
+                        <h2>在线工地</h2>
+                        <span>施工场地，等你参观</span>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="yd-item">
+                    <div class="yd-icon">
+                        <img src="static/frontpages/images/index/yh.png" alt="优惠活动">
+                    </div>
+                    <div class="yd-text">
+                        <h2>活动优惠</h2>
+                        <span>限时优惠，赶紧参加</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- 引导区域结束 -->
+
+    <!-- 客户案例 -->
+    <div class="customer-case">
+        <div class="case-wrap">
+            <div class="case-top">
+                <h2>家装案例</h2>
+                <p>CASE OF HOME DRESS</p>
+            </div>
+            <div class="case-section">
+                <div class="case-nav">
+                    <ul>
+                        <li>
+                            <a href="#">北欧</a>
+                            <a href="#">欧式</a>
+                            <a href="#">现代简约</a>
+                            <a href="#">田园</a>
+                            <a href="#">美式</a>
+                            <a href="#">新中式</a>
+                            <a href="#">新古典</a>
+                            <a href="#">地中海</a>
+                            <a href="#">混搭</a>
+                            <a href="#">全部</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+                <div class="case">
+                    <ul class="clearfix">
+                        <li class="pic-main-left">
+                            <a href="#">
+                                <img class="case-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/case1.jpg"
+                                    alt="装修案例">
+                                <span class="clearfix">
+                                    <h4>某某地方</h4>
+                                    <em>中式400m
+                                        <sup>2</sup>
+                                    </em>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="case-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/case2.jpg"
+                                    alt="装修案例">
+                                <span class="clearfix">
+                                    <h4>某某地方</h4>
+                                    <em>中式400m
+                                        <sup>2</sup>
+                                    </em>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="case-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/case2.jpg"
+                                    alt="装修案例">
+                                <span class="clearfix">
+                                    <h4>某某地方</h4>
+                                    <em>中式400m
+                                        <sup>2</sup>
+                                    </em>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="case-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/case3.jpg"
+                                    alt="装修案例">
+                                <span class="clearfix">
+                                    <h4>某某地方</h4>
+                                    <em>中式400m
+                                        <sup>2</sup>
+                                    </em>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="case-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/case3.jpg"
+                                    alt="装修案例">
+                                <span class="clearfix">
+                                    <h4>某某地方</h4>
+                                    <em>中式400m
+                                        <sup>2</sup>
+                                    </em>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="case-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/case3.jpg"
+                                    alt="装修案例">
+                                <span class="clearfix">
+                                    <h4>某某地方</h4>
+                                    <em>中式400m
+                                        <sup>2</sup>
+                                    </em>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="read-more">
+                    <a href="case.html">
+                        <button>查看更多</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 客户案例结束 -->
+
+    <!-- 设计团队 -->
+    <div class="design-team">
+        <div class="design-wrap">
+            <div class="design-top">
+                <h2>设计团队</h2>
+                <p>DESIGN TEAM</p>
+            </div>
+            <div class="design-section">
+                <div class="design-nav">
+                    <ul>
+                        <li>
+                            <a href="#">高端</a>
+                            <a href="#">首席</a>
+                            <a href="#">主任</a>
+                            <a href="#">主案</a>
+                            <a href="#">软装师</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="design-member clearfix">
+                    <div class="design-member-left">
+                        <img class="designer-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/bteam-ll.jpg"
+                            alt="设计师-林亮">
+                    </div>
+                    <div class="design-member-right">
+                        <ul class="clearfix">
+                            <li>
+                                <a>
+                                    <img class="designer-lazy" src="static/frontpages/images/index/loading.gif"
+                                        data-original="static/frontpages/images/index/team-ll.jpg" alt="设计师-林亮">
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    <img class="designer-lazy" src="static/frontpages/images/index/loading.gif"
+                                        data-original="static/frontpages/images/index/team-xfm.jpg" alt="设计师-徐芳敏">
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    <img class="designer-lazy" src="static/frontpages/images/index/loading.gif"
+                                        data-original="static/frontpages/images/index/team-yzl.jpg" alt="设计师-叶子龙">
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    <img class="designer-lazy" src="static/frontpages/images/index/loading.gif"
+                                        data-original="static/frontpages/images/index/team-zy.jpg" alt="设计师-周盈">
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    <img class="designer-lazy" src="static/frontpages/images/index/loading.gif"
+                                        data-original="static/frontpages/images/index/d6.png" alt="design">
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    <img class="designer-lazy" src="static/frontpages/images/index/loading.gif"
+                                        data-original="static/frontpages/images/index/d7.png" alt="design">
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    <img class="designer-lazy" src="static/frontpages/images/index/loading.gif"
+                                        data-original="static/frontpages/images/index/d8.png" alt="design">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="designer.html">
+                                    查看更多设计师
+                                    <span>→</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 设计团队结束 -->
+
+    <!-- 直击工地 -->
+    <div class="scene">
+        <div class="scene-wrap">
+            <div class="scene-top">
+                <h2>直击工地</h2>
+                <p>SCENE</p>
+            </div>
+            <div class="scene-section">
+                <div class="scene-nav">
+                    <ul class="clearfix">
+                        <li>
+                            <a href="#">龙山镇</a>
+                        </li>
+                        <li>
+                            <a href="#">掌起镇</a>
+                        </li>
+                        <li>
+                            <a href="#">附海镇</a>
+                        </li>
+                        <li>
+                            <a href="#">桥头镇</a>
+                        </li>
+                        <li>
+                            <a href="#">匡堰镇</a>
+                        </li>
+                        <li>
+                            <a href="#">逍林镇</a>
+                        </li>
+                        <li>
+                            <a href="#">新浦镇</a>
+                        </li>
+                        <li>
+                            <a href="#">胜山镇</a>
+                        </li>
+                        <li>
+                            <a href="#">横河镇</a>
+                        </li>
+                        <li>
+                            <a href="#">崇寿镇</a>
+                        </li>
+                        <li>
+                            <a href="#">天元镇</a>
+                        </li>
+                        <li>
+                            <a href="#">庵东镇</a>
+                        </li>
+                        <li>
+                            <a href="#">长河镇</a>
+                        </li>
+                        <li>
+                            <a href="#">观海卫镇</a>
+                        </li>
+                        <li>
+                            <a href="#">周巷镇</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="scene-layout">
+                    <div class="clearfix">
+                        <div class="main-layout">
+                            <a href="#">
+                                <img class="scene-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/scene1.jpg"
+                                    alt="装修现场">
+                                <span class="clearfix">
+                                    <h4>在建某某工地</h4>
+                                    <button>参观预约</button>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="list-layout">
+                            <ul>
+                                <li class="clearfix">
+                                    <div class="item-img">
+                                        <a href="#">
+                                            <img class="scene-lazy" src="static/frontpages/images/index/loading.gif"
+                                                data-original="static/frontpages/images/index/s2.jpg" alt="装修现场">
+                                        </a>
+                                    </div>
+                                    <div class="item-content">
+                                        <p href="javascript(0);">工地地区：新浦镇
+                                            <span>
+                                                <i class="fa fa-clock-o" aria-hidden="true"></i>300</span>
+                                        </p>
+                                        <p href="javascript(0);">设计师：XXX</p>
+                                        <button>立即预约</button>
+                                        <p class="time">发布时间：2018-07-19</p>
+                                    </div>
+                                </li>
+                                <li class="clearfix">
+                                    <div class="item-img">
+                                        <a href="#">
+                                            <img class="scene-lazy" src="static/frontpages/images/index/loading.gif"
+                                                data-original="static/frontpages/images/index/s2.jpg" alt="装修现场">
+                                        </a>
+                                    </div>
+                                    <div class="item-content">
+                                        <p href="javascript(0);">工地地区：新浦镇
+                                            <span>
+                                                <i class="fa fa-clock-o" aria-hidden="true"></i>300</span>
+                                        </p>
+                                        <p href="javascript(0);">设计师：XXX</p>
+                                        <button>立即预约</button>
+                                        <p class="time">发布时间：2018-07-19</p>
+                                    </div>
+                                </li>
+                                <li class="clearfix">
+                                    <div class="item-img">
+                                        <a href="#">
+                                            <img class="scene-lazy" src="static/frontpages/images/index/loading.gif"
+                                                data-original="static/frontpages/images/index/s2.jpg" alt="装修现场">
+                                        </a>
+                                    </div>
+                                    <div class="item-content">
+                                        <p href="javascript(0);">工地地区：新浦镇
+                                            <span>
+                                                <i class="fa fa-clock-o" aria-hidden="true"></i>300</span>
+                                        </p>
+                                        <p href="javascript(0);">设计师：XXX</p>
+                                        <button>立即预约</button>
+                                        <p class="time">发布时间：2018-07-19</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 直击工地 -->
+
+    <!-- 服务流程 -->
+    <div class="server">
+        <div class="server-wrap">
+            <div class="server-top">
+                <h2>服务流程</h2>
+                <p>SERVER</p>
+            </div>
+            <div class="server-list">
+                <ul class="clearfix">
+                    <li>
+                        <img class="server-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/server-list1.png"
+                            alt="服务列表">
+                        <p>在线预约
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                        </p>
+                    </li>
+                    <li>
+                        <img class="server-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/server-list2.png"
+                            alt="服务列表">
+                        <p>需求沟通
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                        </p>
+                    </li>
+                    <li>
+                        <img class="server-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/server-list3.png"
+                            alt="服务列表">
+                        <p>免费设计
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                        </p>
+                    </li>
+                    <li>
+                        <img class="server-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/server-list4.png"
+                            alt="服务列表">
+                        <p>签订合同
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                        </p>
+                    </li>
+                    <li>
+                        <img class="server-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/server-list5.png"
+                            alt="服务列表">
+                        <p>开始施工
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                        </p>
+                    </li>
+                    <li>
+                        <img class="server-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/server-list6.png"
+                            alt="服务列表">
+                        <p>竣工验收
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                        </p>
+                    </li>
+                    <li>
+                        <img class="server-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/server-list7.png"
+                            alt="服务列表">
+                        <p>售后保障</p>
+                    </li>
+                </ul>
+                <div class="read-more">
+                    <button>立即预约</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 服务流程结束 -->
+
+    <!-- 表单 -->
+    <div class="get-price-form">
+        <div class="get-price-form-wrap">
+            <div class="form-in">
+                <div class="signboard">
+                    智能报价器
+                </div>
+                <form action="">
+                    <select name="" id="">
+                        <option value="">一室</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="">二厅</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="">一卫</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="">一厨</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="">一阳台</option>
+                    </select>
+                    <input type="text" placeholder="请输入您的平方面积" id="customer-area" onkeyup="value=value.replace(/[^\d]/g,'')">
+                    <input type="text" placeholder="请输入您的称呼" id="customer-name" onkeyup="value=value.replace(/[\d]/g,'')">
+                    <input type="text" placeholder="请输入您的手机号码" id="customer-phone" onkeyup="value=value.replace(/[^\d]/g,'')">
+                    <button type="button">立即报价</button>
+                </form>
+            </div>
+            <div class="signboard-right clearfix">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="liner"></div>
+                <div class="count-result">
+                    <h2>您家的全包价约
+                        <span class="qbj">102728</span>元</h2>
+                    <p>精装辅料费：
+                        <span class="flf">4732</span>元</p>
+                    <p>精装主材费：
+                        <span class="zcf">4732</span>元</p>
+                    <p>精装人工费：
+                        <span class="rgf">33871</span>元</p>
+                    <p>整装设计费：
+                        <span class="sjf">16975</span>元</p>
+                    <p>工程管理费：
+                        <span class="glf">16975</span>元</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 表单结束 -->
+
+    <!-- 720全景 -->
+    <!-- <div class="VR-720-Wrap">
+        <div class="VR-720 clearfix">
+            <div class="VR-720-top">
+                <h2>VR全景漫游</h2>
+                <p>VR PANORAMIC ROAMING</p>
+            </div>
+            <div id="viewer"></div>
+            <div id="viewer2"></div>
+            <div id="viewer3"></div>
+        </div>
+    </div> -->
+    <!-- 720全景END -->
+
+    <!-- 合作品牌 -->
+    <div class="friends">
+        <div class="friends-wrap">
+            <div class="friends-top">
+                <h2>合作品牌</h2>
+                <p>COOPERATIVE BRAND</p>
+            </div>
+            <div class="friends-nav">
+                <ul class="clearfix">
+                    <li>
+                        <img class="friends-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/logo-bd.jpg"
+                            alt="品创饰家-合作品牌">
+                    </li>
+                    <li>
+                        <img class="friends-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/logo-bn.jpg"
+                            alt="品创饰家-合作品牌">
+                    </li>
+                    <li>
+                        <img class="friends-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/logo-dw.jpg"
+                            alt="品创饰家-合作品牌">
+                    </li>
+                    <li>
+                        <img class="friends-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/logo-dmfl.jpg"
+                            alt="品创饰家-合作品牌">
+                    </li>
+                    <li>
+                        <img class="friends-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/logo-dg.jpg"
+                            alt="品创饰家-合作品牌">
+                    </li>
+                    <li>
+                        <img class="friends-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/logo-dlg.jpg"
+                            alt="品创饰家-合作品牌">
+                    </li>
+                    <li>
+                        <img class="friends-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/logo-ds.jpg"
+                            alt="品创饰家-合作品牌">
+                    </li>
+                    <li>
+                        <img class="friends-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/logo-df.jpg"
+                            alt="品创饰家-合作品牌">
+                    </li>
+                    <li>
+                        <img class="friends-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/logo-flp.jpg"
+                            alt="品创饰家-合作品牌">
+                    </li>
+                    <li>
+                        <img class="friends-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/logo-gn.jpg"
+                            alt="品创饰家-合作品牌">
+                    </li>
+                    <li>
+                        <img class="friends-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/logo-pes.jpg"
+                            alt="品创饰家-合作品牌">
+                    </li>
+                    <li>
+                        <img class="friends-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/logo-pld.jpg"
+                            alt="品创饰家-合作品牌">
+                    </li>
+                    <li>
+                        <img class="friends-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/logo-qgdl.jpg"
+                            alt="品创饰家-合作品牌">
+                    </li>
+                    <li>
+                        <img class="friends-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/logo-sn.jpg"
+                            alt="品创饰家-合作品牌">
+                    </li>
+                    <li>
+                        <img class="friends-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/logo-sgb.jpg"
+                            alt="品创饰家-合作品牌">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 合作品牌结束 -->
+
+    <!-- 装修要闻 -->
+    <div class="news">
+        <div class="news-wrap clearfix">
+            <div class="news-top">
+                <h2>装修要闻</h2>
+                <p>NEWS</p>
+            </div>
+            <div class="main-news">
+                <a href="#">
+                    <img class="news-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/news1.png"
+                        alt="装修要闻">
+                    <span class="clearfix">
+                        <h4>油漆涂料操作时装修注意事项</h4>
+                        <time>2018-07-20</time>
+                        <p>大家在是使用油漆的时候可能并没注意到很多装修知识，但是如果不注意这些细节可能会让你的努力付诸东流。</p>
+                    </span>
+                </a>
+            </div>
+            <div class="list-news">
+                <ul>
+                    <li class="clearfix">
+                        <div class="item-img">
+                            <img src="static/frontpages/images/index/zszs.png" alt="装修知识">
+                            <p>装修知识</p>
+                        </div>
+                        <div class="item-content">
+                            <ul>
+                                <li>
+                                    <a>油漆涂料操作时装修主事项</a>
+                                    <time>2018-7-20</time>
+                                </li>
+                                <li>
+                                    <a>油漆涂料操作时装修主事项</a>
+                                    <time>2018-7-20</time>
+                                </li>
+                                <li>
+                                    <a>油漆涂料操作时装修主事项</a>
+                                    <time>2018-7-20</time>
+                                </li>
+                                <li>
+                                    <a>油漆涂料操作时装修主事项</a>
+                                    <time>2018-7-20</time>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <div class="item-img">
+                            <img src="static/frontpages/images/index/zxlc.png" alt="装修流程" width="98" height="100">
+                            <p>装修流程</p>
+                        </div>
+                        <div class="item-content">
+                            <ul>
+                                <li>
+                                    <a>油漆涂料操作时装修主事项</a>
+                                    <time>2018-7-20</time>
+                                </li>
+                                <li>
+                                    <a>油漆涂料操作时装修主事项</a>
+                                    <time>2018-7-20</time>
+                                </li>
+                                <li>
+                                    <a>油漆涂料操作时装修主事项</a>
+                                    <time>2018-7-20</time>
+                                </li>
+                                <li>
+                                    <a>油漆涂料操作时装修主事项</a>
+                                    <time>2018-7-20</time>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <div class="item-img">
+                            <img src="static/frontpages/images/index/xgzc.png" alt="选购主材" width="98" height="100">
+                            <p>选购主材</p>
+                        </div>
+                        <div class="item-content">
+                            <ul>
+                                <li>
+                                    <a>油漆涂料操作时装修主事项</a>
+                                    <time>2018-7-20</time>
+                                </li>
+                                <li>
+                                    <a>油漆涂料操作时装修主事项</a>
+                                    <time>2018-7-20</time>
+                                </li>
+                                <li>
+                                    <a>油漆涂料操作时装修主事项</a>
+                                    <time>2018-7-20</time>
+                                </li>
+                                <li>
+                                    <a>油漆涂料操作时装修主事项</a>
+                                    <time>2018-7-20</time>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <div class="item-img">
+                            <img src="static/frontpages/images/index/gysj.png" alt="关于设计" width="98" height="100">
+                            <p>关于设计</p>
+                        </div>
+                        <div class="item-content">
+                            <ul>
+                                <li>
+                                    <a>油漆涂料操作时装修主事项</a>
+                                    <time>2018-7-20</time>
+                                </li>
+                                <li>
+                                    <a>油漆涂料操作时装修主事项</a>
+                                    <time>2018-7-20</time>
+                                </li>
+                                <li>
+                                    <a>油漆涂料操作时装修主事项</a>
+                                    <time>2018-7-20</time>
+                                </li>
+                                <li>
+                                    <a>油漆涂料操作时装修主事项</a>
+                                    <time>2018-7-20</time>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 装修要闻结束 -->
+
+    <!-- footer -->
+    <div class="footer clearfix">
+        <div class="footer-wrap clearfix">
+            <div class="link">
+                <h2>友情链接</h2>
+                <a href="#">
+                    <p>小蜜蜂装修网</p>
+                </a>
+            </div>
+            <div class="about">
+                <h2>关于我们</h2>
+                <p>公司咨询</p>
+                <p>常见问题</p>
+                <p>企业荣誉</p>
+            </div>
+            <div class="contact">
+                <h2>联系方式</h2>
+                <p>电话：0574-63861216</p>
+                <p>地址：海关北路369号</p>
+            </div>
+            <div class="ewm">
+                <img src="static/frontpages/images/ewm.png" alt="品创饰家-二维码">
+            </div>
+        </div>
+    </div>
+    <!-- footer结束 -->
+</body>
+
+</html>
+<script src="static/frontpages/js/jquery-1.7.2.min.js"></script>
+<script src="static/frontpages/js/jquery-ui.min.js "></script>
+<script src="static/frontpages/js/jquery.lazyload.min.js"></script>
+<script src="static/frontpages/js/index.js "></script>
+<script src="static/frontpages/js/swiper.min.js"></script>
+<script>
+    //轮播banner
+    var mySwiper = new Swiper('.swiper-container', {
+        direction: 'horizontal',
+        autoplay: true
+    })
+    //图片懒加载
+    $(document).ready(function () {
+        let navHeight = 77;
+        let bannerHeight = 680;
+        let ydHeight = 216;
+        let customerHeight = 806;
+        let designerHeight = 743;
+        let sceneHeight = 700;
+        let serverHeight = 494;
+        let getpriceHeight = 360;
+        let VRHeight = 736;
+        let friendsHeight = 712;
+        let newsHeight = 724;
+        let footerHeight = 225;
+        $(window).scroll(function (event) {
+            if ($(this).scrollTop() >= navHeight + bannerHeight + ydHeight / 2) {
+                $(".case-lazy").lazyload({});
+            }
+            if ($(this).scrollTop() >= navHeight + bannerHeight + ydHeight + customerHeight / 2) {
+                $(".designer-lazy").lazyload({})
+            }
+            if ($(this).scrollTop() >= navHeight + bannerHeight + ydHeight + customerHeight + designerHeight / 2) {
+                $(".scene-lazy").lazyload({})
+            }
+            if ($(this).scrollTop() >= navHeight + bannerHeight + ydHeight + customerHeight + designerHeight + sceneHeight / 2) {
+                $(".server-lazy").lazyload({})
+            }
+            if ($(this).scrollTop() >= navHeight + bannerHeight + ydHeight + customerHeight + designerHeight + sceneHeight + getpriceHeight + VRHeight / 2) {
+                $(".friends-lazy").lazyload({})
+            }
+            if ($(this).scrollTop() >= navHeight + bannerHeight + ydHeight + customerHeight + designerHeight + sceneHeight + getpriceHeight + VRHeight + friendsHeight / 2) {
+                $(".news-lazy").lazyload({})
+            }
+        })
+    })
+</script>

@@ -1,0 +1,97 @@
+/* banner */
+.banner {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    margin-top: 105px;
+    background: #f1f6f9;
+}
+.banner img {
+    width: 100%;
+}
+/* server Intro */
+.server-Intro {
+    width: 1200px;
+    margin: 0 auto;
+}
+.server-Intro ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    -ms-flex-direction: row;
+}
+.server-Intro ul li {
+    width: 25%;
+    height: 150px;
+    font-size: 24px;
+    line-height: 150px;
+    text-align: center;
+    position: relative;
+}
+.server-Intro ul li a:hover {
+    color: inherit;
+    cursor: pointer;
+}
+.server-Intro .first-h {
+    margin-top: 150px;
+    margin-bottom: 75px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    font-style: normal;
+}
+.server-Intro > h2 {
+    margin-top: 95px;
+    margin-bottom: 95px;
+    font-size: 48px;
+    text-align: center;
+}
+.server-Intro > p:nth-of-type(1) {
+    margin: 0 auto;
+    width: 366px;
+    height: 68px;
+    border: 4px solid #0093dd;
+    font-size: 30px;
+    line-height: 60px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-bottom: 30px;
+}
+.server-Intro > p:nth-of-type(2) {
+    width: 700px;
+    height: 250px;
+    font-size: 24px;
+    text-align: center;
+    margin: 0 auto;
+    color: #404040;
+}
+.li-active {}
+
+.li-active::after {
+    content: '一';
+    position: absolute;
+    top:30px;
+    left:140px;
+    color: #0093dd;
+    font-weight: 700;
+}
+#five-progress-2 {
+    z-index: -1;
+    margin-top: -18px !important;
+}
+#five-progress-3 {
+    margin-top: -18px;
+}
+#five-progress-4 {
+    margin-top: -18px;
+}
+#five-progress-5 {
+    margin-top: -18px;
+}
+.footer {
+    background: #ffffff;
+}
+.center {
+    text-align: center;
+}

@@ -1,0 +1,440 @@
+/* banner */
+.banner {
+    width: 100%;
+    max-width: 1920px;
+    height: 468px;
+    margin: 0 auto;
+    background: url(../images/discounts/banner-free.jpg) no-repeat;
+    margin-top: 105px;
+}
+.from-in-banner-wrap {
+    width: 1200px;
+    margin:0 auto;
+    position: relative;
+}
+.from-in-banner {
+    position: absolute;
+    top:30px;
+    right: 0;
+    width: 380px;
+    height: 385px;
+    background: #fff;
+    border-radius: 50px;
+}
+.from-in-banner h2 {
+    font-size: 36px;
+    font-family: 'Microsoft YaHei';
+    color: #0093dd;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 25px;
+}
+.from-in-banner p {
+    font-size: 24px;
+    font-family: '黑体';
+    color: #0093dd;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-bottom: 35px;
+}
+.from-in-banner input {
+    width: 270px;
+    height: 35px;
+    border: 1px solid #0093dd;
+    margin: 0 55px;
+    padding-left: 15px;
+}
+.from-in-banner input:nth-of-type(1) {
+    margin-bottom: 25px;
+}
+.from-in-banner input:nth-of-type(2) {
+    margin-bottom: 50px;
+}
+.from-in-banner button {
+    width: 270px;
+    height: 50px;
+    background: #0093dd;
+    border: none;
+    outline: none;
+    margin: 0 55px;
+    color: #fff;
+    font-size: 24px;
+    font-family: '黑体';
+}
+/* process */
+.process {
+    width: 100%;
+    height: 499px;
+    max-width: 1920px;
+    margin: 0 auto;
+    background: url(../images/discounts/process.jpg);
+}
+.process-wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+.process-wrap li {
+    margin-top: 156.5px;
+    width: 240px;
+    float: left;
+}
+/* 量房 */
+.Measuring-house {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    height: 911px;
+}
+.Measuring-house-wrap {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 130px;
+}
+.Measuring-house-wrap h2 {
+    font-size: 48px;
+    padding-bottom: 75px;
+}
+.Measuring-house-section {
+    width: 1200px;
+    margin: 0 auto;
+    height: 495px;
+    position: relative;
+}
+.Measuring-house-section img {
+    position: absolute;
+    top:0;
+    left:0;
+}
+.Measuring-house-section-process {
+    width: 481px;
+    height: 495px;
+    position: absolute;
+    top:0;
+    right: 0;
+    background: url(../images/discounts/Measuring-house-section-process.png) no-repeat;
+}
+/* .Measuring-house-section-process::after {
+    position: absolute;
+    left: 0;
+    content: '';
+    width: 0;   
+    height: 0;   
+    border-bottom: 30px solid transparent;
+    border-top: 30px solid transparent;  
+    border-left: 60px solid rgba(0, 0, 0, 1);
+    font-size: 0;  
+    line-height: 0;
+    top:222px;
+
+} */
+.Measuring-house-section-process ul li {
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+.Measuring-house-section-process ul li::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background: url(../images/discounts/down-arrow.png) no-repeat center;
+    top:70px;
+    left: 75px;
+
+}
+.Measuring-house-section-process ul li:nth-of-type(1) {
+    margin-top: 50px;
+}
+.Measuring-house-section-process ul li:nth-of-type(2) {
+    margin-top: 60px;
+}
+.Measuring-house-section-process ul li:nth-of-type(3) {
+    margin-top: 60px;
+}
+.Measuring-house-section-process ul li:nth-of-type(3)::after {
+    display: none;
+}
+.Measuring-house-section-process ul li p:nth-of-type(1) {
+    margin-left: 65px;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-right: 20px;
+    font-family: '黑体';
+}
+.Measuring-house-section-process ul li p:nth-of-type(2) {
+    width: 300px;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    font-size: 24px;
+    border-radius: 40px;
+    background: #fff;
+    font-family: '黑体';
+}
+.Measuring-house-section-process button {
+    margin-top: 70px;
+    width: 190px;
+    height: 55px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    background: #0093dd;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+.Measuring-house-section-process button:hover {
+    background: #666;
+}
+/* 专属定制 */
+.custom {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.custom h2 {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 75px;
+}
+.custom ul {
+    margin-bottom: 90px;
+}
+.custom ul li {
+    width: 580px;
+    height: 326px;
+    float: left;
+    position: relative;
+}
+.custom ul li:nth-of-type(1) {
+    margin-right: 40px;
+}
+.custom ul li span {
+    width: 100px;
+    height: 36px;
+    background: rgba(204, 203, 202,0.5);
+    position: absolute;
+    left: 0;
+    top:23px;
+}
+.custom ul li span p {
+    width: 100px;
+    height: 30px;
+    background: rgba(204, 203, 202,0.9);
+    position: absolute;
+    top:3px;
+    left: 0;
+    color: #0093dd;
+    font-size: 18px;
+    padding-left: 20px;
+    line-height: 30px;
+    font-family: '黑体';
+}
+/* 设计师 */
+.designer-wrap {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    background: #f1f6f9;
+    padding-bottom: 110px;
+    height: 748px;
+}
+.designer {
+    width: 1365px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.designer h2 {
+    font-size: 48px;
+    text-align: center;
+    padding-bottom: 75px; 
+}
+.designer-wrap-1365 {
+    width: 1365px;
+    margin: 0 auto;
+    position: relative;
+}
+.designer-wrap-1365 button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+    top:170.5px;
+    cursor: pointer;
+    z-index: 999;
+}
+.designer-wrap-1365 button:nth-of-type(1) {
+    position: absolute;
+    left: 0;
+    background: url(../images/discounts/arrow_left.png);
+}
+.designer-wrap-1365 button:nth-of-type(2) {
+    position: absolute;
+    right: 0;
+    background: url(../images/discounts/arrow_right.png);
+}
+.swiper-wrapper {
+    width: 1200px !important;
+    height: 391px;
+    margin: 0 auto;
+}
+.swiper-container {
+    width: 1200px;
+}
+.swiper-wrapper .swiper-slide {
+    width: 280px !important;
+    height: 391px !important;
+    background: #ffffff;
+    padding-top: 15px;
+    text-align: center;
+    margin: auto 10px !important;
+    cursor: pointer;
+}
+.swiper-wrapper .swiper-slide:nth-of-type(5) {
+    margin-left: 20px;
+}
+.swiper-wrapper .swiper-slide img {
+    margin:0 auto;
+    margin-bottom: 80px;
+}
+.swiper-wrapper .swiper-slide h3 {
+    color: #0093dd;
+    margin-bottom: 55px;
+}
+.swiper-wrapper .swiper-slide p {
+    font-weight: 700;
+    font-size: 14px;
+}
+/* 多种装修风格 */
+.house-style {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.house-style h2 {
+    font-size: 48px;
+    text-align: center;
+    padding-bottom: 75px; 
+}
+.house-style-section {
+    width: 1200px;
+    height: 501px;
+    margin: 0 auto;
+}
+.house-style-section img {
+    float: left;
+}
+.house-style-section img:nth-of-type(2),
+.house-style-section img:nth-of-type(3),
+.house-style-section img:nth-of-type(4) {
+    border-right: 2px solid #000000;
+}
+/* 最新的量房需求 */
+.lastedTb-wrap {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    background: #f1f6f9;
+    padding-top: 20px;
+    padding-bottom: 65px;
+    margin-bottom: 60px;
+}
+.lastedTb {
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 36px;
+}
+.lastedTb h2 {
+    font-size: 36px;
+    margin-bottom: 45px;
+    font-family: '宋体';
+}
+.lastedTb td {
+    width: 200px;
+    font-size: 20px;
+    font-family: '黑体';
+    color: #9e9e9e;
+    font-style:none;
+}
+.lastedTb thead td {
+    padding-bottom: 15px;
+}
+.lastedTb tbody td {
+    padding-top:15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    color: #2d2d2d;
+    border-bottom:1px solid #DDDDDD;
+}
+.lastedTb tbody tr td:nth-last-of-type(2) {
+    padding-left: 2.5px;
+}
+/* 底部表单申请 */
+.bottom-form {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.bottom-form-left {
+    float: left;
+}
+.bottom-form-right {
+    width: 428px;
+    text-align: center;
+    float: left;
+}
+.bottom-form-right h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.bottom-form-right p {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 40px;
+}
+.bottom-form-right p span {
+    color: #0093dd;
+    font-size: 16px;
+}
+.bottom-form-right input {
+    width: 290px;
+    height: 35px;
+    color: #000000;
+    border: 1px solid #000000;
+    padding-left: 10px;
+}
+.bottom-form-right input:nth-of-type(1) {
+    margin-bottom: 20px;
+}
+.bottom-form-right input:nth-of-type(2) {
+    margin-bottom: 50px;
+}
+.bottom-form-right button {
+    width: 290px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background: #0093dd;
+    color: #fff;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:#000000;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:#000000;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:#000000;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:#000000;
+}

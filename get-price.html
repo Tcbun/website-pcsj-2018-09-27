@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>智能报价器-品创饰家</title>
+    <link rel="stylesheet" href="static/frontpages/css/public.css">
+    <link rel="stylesheet" href="static/frontpages/css/nav.css">
+    <link rel="stylesheet" href="static/frontpages/css/btns.css">
+    <link rel="stylesheet" href="static/frontpages/css/footer.css">
+    <link rel="stylesheet" href="static/frontpages/css/font-awesome.min.css">
+    <link rel="stylesheet" href="static/frontpages/css/get-price.css">
+</head>
+
+<body>
+    <!-- 导航栏 -->
+    <div class="nav-wrap">
+        <div class="nav clearfix">
+            <img src="static/frontpages/images/index/logo.png" alt="品创饰家LOGO">
+            <div class="nav-city-wrap">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <a>慈溪</a>
+            </div>
+            <ul class="clearfix">
+                <li>
+                    <a href="index.html">首页</a>
+                </li>
+                <li>
+                    <a href="case.html">装修案例</a>
+                </li>
+                <li>
+                    <a class="nav-active" href="discounts.html">省钱装修</a>
+                    <ul class="down-menu">
+                        <li>
+                            <a href="get-price.html">在线报价</a>
+                        </li>
+                        <li>
+                            <a href="discounts.html">免费设计</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="scene.html">在线工地</a>
+                </li>
+                <li>
+                    <a href="complete.html">整装产品</a>
+                </li>
+                <li>
+                    <a href="one-step-renovation.html">一站式装修</a>
+                </li>
+                <li>
+                    <a href="learn.html">学装修</a>
+                </li>
+                <li>
+                    <a href="aboutus.html">关于我们</a>
+                </li>
+            </ul>
+            <div class="nav-search">
+                <form action="" class="nav-search-from clearfix">
+                    <input type="text" placeholder="请输入搜索关键词" class="search-div">
+                    <button type="button">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                </form>
+            </div>
+            <div class="nav-contact-wrap clearfix">
+                <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                <p>
+                    <b>0574-63861216</b>
+                </p>
+                <!-- <p>咨询热线：15888578399</p> -->
+                <!-- <img src="images/index/gr-w.png" alt="个人登录"> -->
+            </div>
+        </div>
+    </div>
+    <!-- 导航栏结束 -->
+    <!-- 表单 -->
+    <div class="get-price-form">
+        <div class="get-price-form-wrap">
+            <div class="form-in">
+                <div class="signboard">
+                    智能报价器
+                </div>
+                <form action="">
+                    <select name="" id="">
+                        <option value="">一室</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="">二厅</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="">一卫</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="">一厨</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="">一阳台</option>
+                    </select>
+                    <input type="text" placeholder="请输入您的平方面积" id="customer-area" onkeyup="value=value.replace(/[^\d]/g,'')">
+                    <input type="text" placeholder="请输入您的称呼" id="customer-name" onkeyup="value=value.replace(/[\d]/g,'')">
+                    <input type="text" placeholder="请输入您的手机号码" id="customer-phone" onkeyup="value=value.replace(/[^\d]/g,'')">
+                    <button type="button">立即报价</button>
+                </form>
+            </div>
+            <div class="signboard-right clearfix">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="liner"></div>
+                <div class="count-result">
+                    <h2>您家的全包价约
+                        <span class="qbj">102728</span>元</h2>
+                    <p>精装辅料费：
+                        <span class="flf">4732</span>元</p>
+                    <p>精装主材费：
+                        <span class="zcf">4732</span>元</p>
+                    <p>精装人工费：
+                        <span class="rgf">33871</span>元</p>
+                    <p>整装设计费：
+                        <span class="sjf">16975</span>元</p>
+                    <p>工程管理费：
+                        <span class="glf">16975</span>元</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 表单结束 -->
+    <!-- footer -->
+    <div class="footer clearfix">
+        <div class="footer-wrap clearfix">
+            <div class="link">
+                <h2>友情链接</h2>
+                <a href="#">
+                    <p>小蜜蜂装修网</p>
+                </a>
+            </div>
+            <div class="about">
+                <h2>关于我们</h2>
+                <p>公司咨询</p>
+                <p>常见问题</p>
+                <p>企业荣誉</p>
+            </div>
+            <div class="contact">
+                <h2>联系方式</h2>
+                <p>电话：0574-63861216</p>
+                <p>地址：海关北路369号</p>
+            </div>
+            <div class="ewm">
+                <img src="static/frontpages/images/ewm.png" alt="品创饰家二维码">
+            </div>
+        </div>
+    </div>
+    <!-- footer结束 -->
+</body>
+
+</html>
+<script src="static/frontpages/js/jquery-1.7.2.min.js"></script>
+<script src="static/frontpages/js/nav.js"></script>
+<script src="static/frontpages/js/get-price.js"></script>

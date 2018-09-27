@@ -1,0 +1,318 @@
+/* 人物banner */
+.designer-banner-wrap {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    background: url("../images/designer-banner.png") no-repeat center;
+    background-size: 100% 100%;
+    margin-top: 105px;
+}
+.designer-banner {
+    width: 1200px;
+    height: 270px;
+    margin: 0 auto;
+    padding-top: 10px;
+    margin-top: 105px;
+}
+.designer-banner img {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    display: block;
+}
+.designer-banner p {
+    color: #ffffff;
+    font-family: '黑体', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.designer-banner button {
+    width: 130px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: #0093dd;
+    color: #ffffff;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+}
+.designer-banner button:hover {
+    background: gray;
+}
+.designer-intro-wrap {
+    width: 100%;
+    overflow: hidden;
+    max-width: 1920px;
+    margin: 0 auto;
+    background: #f1f6f9;
+}
+.designer-intro {
+    width: 1200px;
+    margin: 0 auto;
+}
+.designer-intro-left {
+    width: 900px;
+    height: 350px;
+    background: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    float: left;
+}
+.who {
+    width: 280px;
+    height: 318px;
+    float: left;
+    padding: 16px;
+}
+.desc {
+    float: left;
+    width: 620px;
+    height: 318px;
+    padding: 30px;
+}
+.desc h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.desc p {
+    color:#404040;
+}
+.desc p:nth-of-type(1),
+.desc p:nth-of-type(2) {
+    font-size: 18px;
+    font-family: '黑体', Tahoma, Geneva, Verdana, sans-serif;
+}
+.desc p:nth-of-type(2) {
+    margin-bottom: 20px;
+}
+.desc p:nth-of-type(3),
+.desc p:nth-of-type(4),
+.desc p:nth-of-type(5) {
+    font-size: 16px;
+}
+.designer-intro-right {
+    width: 280px;
+    height: 350px;
+    float: left;
+    margin-top: 50px;
+}
+.designer-intro-right p {
+    width: 280px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #00c69e;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-family: '黑体', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+.designer-intro-right-bottom {
+    width: 280px;
+    height: 310px;
+    background: #ffffff;
+    padding-top: 15px;
+}
+.designer-intro-right-bottom input {
+    width: 200px;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+    padding-left: 5px;
+}
+.designer-intro-right-bottom input:nth-of-type(1) {
+    margin-bottom: 15px;
+}
+.designer-intro-right-bottom input:nth-of-type(2) {
+    margin-bottom: 20px;
+}
+.designer-intro-right-bottom button {
+    width: 200px;
+    height: 30px;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    background: #0093dd;    
+}
+.designer-intro-right-bottom button:hover {
+    cursor: pointer;
+    background: gray;
+}
+.tjsjs {
+    width: 200px;
+    height: 170px;
+    margin: 0 auto;
+}
+.tjsjs p {
+    background: #ffffff;
+    color: #000000;
+    font-size: 14px;
+    font-family: '黑体', Tahoma, Geneva, Verdana, sans-serif;
+    width: 200px;
+}
+.tjsjs div {
+    width: 50%;
+    float: left;
+}
+.tjsjs div p {
+    width: 100%;
+    text-align: center;
+}
+.tjsjs img {
+    width: 72px;
+    height: 92px;
+    display: block;
+    margin: 0 auto;
+}
+.tjsjs div a {
+    cursor: pointer;
+}
+
+/* 个人案例 */
+.person-case-wrap {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    background: #f1f6f9;
+    margin-bottom: 60px;
+    padding-bottom: 60px;
+}
+.person-case {
+    width: 1200px;
+    background: #ffffff;
+    margin: 0 auto;
+}
+.person-case-title {
+    text-align: center;
+    padding-top: 40px;
+}
+.person-case-title h2 {
+    font-size: 30px;
+    font-family: '黑体', Tahoma, Geneva, Verdana, sans-serif;
+    color: #404040;
+}
+.person-case-title {
+    color: #404040;
+    font-family: '黑体', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+.works-list {
+    width: 1200px;
+    margin: 0 auto;
+}
+.works-list ul li {
+    width: 270px;
+    height: 300px;
+    margin-right: 40px;
+    background: #f1f6f9;
+    position: relative;
+    float: left;
+}
+.works-list ul li:nth-of-type(4n+4) {
+    margin-right: 0;
+}
+.works-list ul li h6 {
+    font-size: 16px;
+    color: #404040;
+    font-weight: normal;
+    margin-top: 10px;
+}
+.works-list ul li p {
+    font-size: 12px;
+    color: #a7a7a7;
+}
+.works-list ul li h6,
+.works-list ul li p {
+    margin-left: 10px;
+}
+.works-list a {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
+.works-list a button {
+    width: 74px;
+    height: 23px;
+    background: #0093dd;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+.works-list a button:hover {
+    background: gray;
+}
+.find-more {
+    width: 1200px;
+    height: 344px;
+    background: #ffffff;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 0 20px 20px 20px;
+}
+.find-more P:nth-of-type(1) a:nth-of-type(1) {
+    font-size: 30px;
+    color: #0093dd;
+    margin: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+.find-more P:nth-of-type(1) a:nth-of-type(2) {
+    float: right;
+    font-size: 18px;
+    margin: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+.find-more ul li {
+    float: left;
+    width: 284px;
+    height: 265px;
+    position: relative;
+    cursor: pointer;
+}
+.find-more ul li p {
+    margin-top: -6px;
+}
+.find-more ul li p span {
+    padding: 5px;
+}
+.find-more ul li p span:nth-of-type(1) {
+    font-size: 16px;
+    float: left;
+}
+.find-more ul li p span:nth-of-type(1)::after {
+    content: "";
+    width: 2px;
+    height: 24px;
+    background: #0093dd;
+    position: absolute;
+    left: 0;
+}
+.find-more ul li p span:nth-of-type(2) {
+    font-size: 14px;
+    float: right;
+}
+.find-more ul li a {
+    width: 100%;
+    height: 100%;
+}
+.find-more ul li a img {
+    max-width: 284px;
+    max-height: 228px;
+}
+.find-more ul li a:hover {
+    color: #404040;
+}
+.find-more ul li:nth-of-type(1),
+.find-more ul li:nth-of-type(2),
+.find-more ul li:nth-of-type(3) {
+    margin-right: 8px;
+}

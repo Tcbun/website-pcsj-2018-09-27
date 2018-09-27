@@ -1,0 +1,32 @@
+/* footer */
+.footer {
+    overflow: hidden;
+    width: 100%;
+    background: #f2f2f2;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.footer-wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+.footer-wrap div {
+    width: 300px;
+    float: left;
+    padding-top: 60px;
+    font-family: '黑体',sans-serif;
+}
+.footer-wrap div h2 {
+    font-size: 20px;
+}
+.footer-wrap div p {
+    font-size: 14px;
+}
+.ewm img {
+    float: right;
+}
+.item-content ul li time {
+    float: right;
+    padding-right: 30px;
+}
+/* footer结束 */

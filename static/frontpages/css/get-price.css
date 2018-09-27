@@ -1,0 +1,201 @@
+/* 表单 */
+.get-price-form {
+    width: 100%;
+    max-width: 1920px;
+    height: 770px;
+    margin-top: 105px;
+    margin-bottom: 60px;
+    position: relative;
+    background: url(../images/get-price/get-price.png) no-repeat;
+    padding-top: 270px;
+}
+.get-price-form-wrap {
+    width: 1200px;
+    border: 2px solid #1d9d73;
+    height: 380px;
+    margin: 0 auto;
+    background: #fff;
+}
+.form-in {
+    width: 600px;
+    height: 380px;
+    padding-left: 70px;
+    float: left;
+}
+.form-in select {
+    padding-left: 10px;
+    width: 160px;
+    height: 50px;
+}
+.form-in select:nth-of-type(1) {
+    margin-top: 72px;
+    margin-right: 17px;
+}
+.form-in select:nth-of-type(2) {
+    margin-top: 72px;
+    margin-right: 17px;
+}
+.form-in select:nth-of-type(4) {
+    margin-top: 72px;
+    width: 255px;
+    margin-top: 20px;
+    margin-right: 12px;
+}
+.form-in select:nth-of-type(5) {
+    width: 255px;
+    margin-top: 20px;
+}
+.form-in input:nth-of-type(1) {
+    margin-top: 20px;
+    width: 255px;
+    margin-right: 12px;
+    height: 50px;
+}
+.form-in input:nth-of-type(2) {
+    margin-top: 20px;
+    width: 255px;
+    height: 50px;
+}
+.form-in input:nth-of-type(3) {
+    width: 255px;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 12px;
+}
+.form-in input {
+    padding-left: 10px; 
+}
+.form-in button {
+    width: 255px;
+    height: 50px;
+    margin-top: 20px;
+    background: #1d9d73;
+    color:#ffffff;
+}
+.form-in button:hover {
+    background: #666;
+    border: 1px solid #666;
+    color: white;
+}
+.signboard {
+    font-family: '黑体','Times New Roman', Times, serif;
+    position: absolute;
+    background: #1d9d73;
+    top:-45px;
+    height: 95px;
+    width: 300px;
+    text-align: center;
+    line-height: 95px;
+    font-size: 36px;
+    color: #fff;
+    margin-top: 270px;
+}
+.signboard::before {
+    content: '';
+    position: absolute;
+    left: -20px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 45px 20px;
+    border-color: transparent transparent #05442f transparent;
+}
+.signboard-right {
+    height: 360px;
+    width: 596px;
+    float: left;
+    position: relative;
+}
+.circle:nth-of-type(1) {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background: #f19049;
+    top:-7.5px;
+    left: 180px;
+    border-radius: 50%;
+    z-index: 2;
+}
+.circle:nth-of-type(2) {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background: #f19049;
+    top:-7.5px;
+    left: 410px;
+    border-radius: 50%;
+    z-index: 2;
+}
+.liner {
+    width: 240px;
+    height: 55px;
+    position: absolute;
+    left: 183px;
+    top:-6px;
+    z-index: 1;
+    /* background: linear-gradient(90deg, #fa6c06,#ffffff 2%,#fa6c06 5%,white 5%,white 96%, #fa6c06 96%,white 98%, #fa6c06 100%) */
+    border-image: url(../images/index/bang.png) 0 14 0 14 stretch;
+    border-width: 10px;
+    border-style: solid;
+}
+.count-result {
+    font-family: '黑体','Times New Roman', Times, serif;
+    background: url(../images/index/count-result.png);
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 295px;
+    position: absolute;
+    top:38px;
+    left: 80px;
+    color:#ffffff;
+}
+.count-result h2 {
+    padding-top: 35px;
+    width: 394px;
+    font-size: 22px;
+    letter-spacing: 4px;
+    margin: 0 auto;
+}
+.count-result h2 span {
+    font-size: 30px;
+    color: #fbc16c;
+}
+.count-result .hr {
+    width: 150px;
+    height: 2px;
+    background: #ffffff;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.count-result p:nth-of-type(1) {
+    width: 394px;
+    margin: 0 auto;
+    padding-left: 40px;
+    /* padding-top: 20px; */
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+.count-result p:nth-of-type(2),
+.count-result p:nth-of-type(3),
+.count-result p:nth-of-type(4),
+.count-result p:nth-of-type(5) {
+    width: 394px;
+    margin: 0 auto;
+    padding-left: 40px;
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+.count-result p span {
+    font-size: 24px;
+}
+form button {
+    border: none;
+    background: #ffffff;
+    height: 60px;
+    color: #1d9d73;
+    cursor: pointer;
+    font-size: 15px;
+    width: 199px;
+    outline: none;
+}
+/* 表单结束 */
