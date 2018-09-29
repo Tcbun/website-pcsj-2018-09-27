@@ -19,9 +19,9 @@ $(document).ready(function () {
     })
 })
 
-$(".side-bottom input").click(function ()
+$(".side-bottom input").click(function () {
     $(this).attr("placeholder","");
-    clickNoPlaceholder($(".side-bottom input"))
+    clickNoPlaceholder($(".side-bottom input"));
 })
 
 function clickNoPlaceholder (input){
