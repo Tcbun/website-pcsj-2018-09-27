@@ -19,6 +19,28 @@ $(document).ready(function () {
     })
 })
 
+$(".side-bottom input").click(function ()
+    $(this).attr("placeholder","");
+    clickNoPlaceholder($(".side-bottom input"))
+})
+
+function clickNoPlaceholder (input){
+    var inputList = input;
+    inputList.click(function () {
+        $(this).attr("placeholder","");
+    })
+    inputList.eq(0).blur(function () {
+        if ( $(this).val() === "") {
+            $(this).attr("placeholder", "姓名")
+        }
+    })
+    inputList.eq(1).blur(function () {
+        if ( $(this).val() === "") {
+            $(this).attr("placeholder", "联系方式")
+        }
+    })
+}
+
 $(".side-bottom button").click(function () {
     Validate($(".side-bottom input"))
 })
