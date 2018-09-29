@@ -57,6 +57,11 @@
     width: 280px;
     float: right;
 }
+.page280::after {
+    content: '';
+    display: block;
+    clear: both;
+}
 .page280 .page280-form {
     width: 280px;
     height: 282px;
@@ -150,26 +155,24 @@
 
 /* pre-and-next */
 .pre-and-next {
-    width: 1900px;
-    margin: 0 auto;
-    background: #f1f6f9;
-}
-.pre-and-next1200 {
-    width: 1200px;
     margin: 0 auto;
 }
 .pre-and-next1200 a {
     font-size: 14px;
+    color: #0f9681;
+}
+.pre-and-next1200 a:hover {
+    font-size: 14px;
+    color: #00b0ea;
 }
 .pre-and-next1200 a:nth-of-type(1) {
     float: left;
     margin-bottom: 20px;
+    margin-top:15px;
 }
 .pre-and-next1200 a:nth-of-type(2) {
     float: right;
     margin-bottom: 20px;
-}
-.pre-and-next890 {
-    width: 890px;
+    margin-top: 15px;
 }
 /* pre-and-nextEnd */
