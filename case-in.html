@@ -119,13 +119,15 @@
                 </div>
                 <div class="btns clearfix">
                     <button class="btn-active">预约设计师</button>
-                    <button>查看TA设计</button>
+                    <a href="designer.html">
+                        <button>查看TA设计</button>
+                    </a>
                 </div>
                 <div class="side-bottom">
                     <h2>免费装修设计</h2>
                     <form action="">
-                        <input type="text" placeholder="姓名">
-                        <input type="text" placeholder="联系方式">
+                        <input type="text" placeholder="姓名" onkeyup="value=value.replace(/[^\D]/g,'')">
+                        <input type="text" placeholder="联系方式" onkeyup="value=value.replace(/[^\d]/g,'')">
                     </form>
                     <button>设计报名</button>
                 </div>

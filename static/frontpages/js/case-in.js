@@ -3,6 +3,7 @@ $(document).ready(function () {
         var imgSrc = $(".swiper-slide-active > img").attr("src");
         $(".main > img").attr("src", imgSrc);
     }
+
     toggleSrc();
     $(".pre").click(function () {
         swiper.slidePrev();
@@ -12,9 +13,26 @@ $(document).ready(function () {
         swiper.slideNext();
         toggleSrc();
     });
-    $(".swiper-wrapper").on("click",".swiper-slide",function(){
+    $(".swiper-wrapper").on("click", ".swiper-slide", function () {
         var nowSrc = $(this).find("img").attr("src");
         $(".main > img").attr("src", nowSrc);
     })
 })
 
+$(".side-bottom button").click(function () {
+    Validate($(".side-bottom input"))
+})
+function Validate(input) {
+    var inputList = input;
+    var regPhone = /^1[3|4|5|7|8][0-9]{9}$/;
+    if (inputList.eq(0).val() !== "") {
+
+    } else {
+        alert("请正确输入您的姓名！")
+    }
+    if (inputList.eq(1).val() !== "" && regPhone.test(inputList.eq(1).val())) {
+
+    } else {
+        alert("请输入正确的手机号码！")
+    }
+}

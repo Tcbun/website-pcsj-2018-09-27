@@ -197,4 +197,3 @@ $(function () {
     }
     $("#customer-area").bind("blur", addM3);
 })
-
