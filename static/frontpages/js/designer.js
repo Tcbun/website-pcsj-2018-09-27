@@ -51,7 +51,6 @@ function clickNoPlaceholder (input){
         }
     })
 }
-
 $(".designer-intro-right-bottom button").click(function () {
     Validate($(".designer-intro-right-bottom input"))
 })
