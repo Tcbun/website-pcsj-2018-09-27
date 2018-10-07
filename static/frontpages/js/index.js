@@ -1,28 +1,29 @@
-//导航条鼠标事件
-$(function () {
-    var logo = $(".nav > img:nth-of-type(1)");
-    function scrollAdd() {
-        disTop = $(window).scrollTop();
-        if (disTop > 0) {
-            // alert("不在顶部")
-            $(".nav-wrap").addClass("hoverImportant");
-            logo.attr("src", "static/frontpages/images/index/logo.png");
-        } else {
-            // alert("在顶部")
-            $(".nav-wrap").removeClass("hoverImportant");
-            logo.attr("src", "static/frontpages/images/index/logo-w.png");
-            $(".nav-wrap").hover(function () {
-                $(".nav-wrap").addClass("hoverImportant");
-                logo.attr("src", "static/frontpages/images/index/logo.png");
-            }, function () {
-                logo.attr("src", "static/frontpages/images/index/logo-w.png");
-                $(".nav-wrap").removeClass("hoverImportant");
-            })
-        }
-    }
-    $(document).ready(scrollAdd);
-    $(document).scroll(scrollAdd);
-})
+// 导航条鼠标事件
+// $(function () {
+//     var logo = $(".nav > img:nth-of-type(1)");
+//     function scrollAdd() {
+//         disTop = $(window).scrollTop();
+//         if (disTop > 0) {
+//             // alert("不在顶部")
+//             $(".nav-wrap").addClass("hoverImportant");
+//             logo.attr("src", "static/frontpages/images/index/logo.png");
+//         } else {
+//             // alert("在顶部")
+//             $(".nav-wrap").removeClass("hoverImportant");
+//             logo.attr("src", "static/frontpages/images/index/logo-w.png");
+//             $(".nav-wrap").hover(function () {
+//                 $(".nav-wrap").addClass("hoverImportant");
+//                 logo.attr("src", "static/frontpages/images/index/logo.png");
+//             }, function () {
+//                 logo.attr("src", "static/frontpages/images/index/logo-w.png");
+//                 $(".nav-wrap").removeClass("hoverImportant");
+//             })
+//         }
+//     }
+//     $(document).ready(scrollAdd);
+//     $(document).scroll(scrollAdd);
+// })
+
 //搜索框
 $(function () {
     function search() {

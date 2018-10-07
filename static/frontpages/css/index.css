@@ -42,12 +42,9 @@ li {
     max-width: 1920px;
     margin: 0 auto;
     background: linear-gradient(180deg  ,rgba(0,0,0,0.3) 10%,rgba(0, 0, 0,0.2) 30%,rgba(0, 0, 0,0.1) 50%,rgba(255,255,255,0.00005) 100%);
-    position: fixed;
-    top:0;
-    z-index: 999;
     padding-top: 15px !important;
     padding-bottom: 15px !important;
-    transition: all 0.8s;
+    background:#ffffff;
 }
 .nav-active {
     color: #529e0e !important;
@@ -141,7 +138,7 @@ li {
 .nav-contact-wrap i {
     float: left;
     line-height: 47px;
-    color: #ffffff;
+    color: #000000;
     font-size: 20px;
     margin-right: 10px;
     padding-left: 51.1px;
@@ -155,8 +152,12 @@ li {
 .nav ul li a {
     font-size: 14px;
     line-height: 47px;
-    color: #ffffff;
+    color: #000000;
     transform: all 0.8s;
+}
+
+.nav ul li a:hover {
+    color:#529e0e !important;
 }
 .nav-search {
     /* width: 170px; */
@@ -207,7 +208,7 @@ li {
     left:941px;
 }
 .nav-contact-wrap p {
-    color: #ffffff;
+    color: #434343;
     line-height: 47px;
     float: left;
     transition: all 0.8s;
