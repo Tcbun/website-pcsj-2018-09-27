@@ -1539,10 +1539,17 @@ form button {
     list-style-type: disc;
     list-style: none;
     font-size: 12px;
-    margin-top: 5.5px;
-    margin-bottom: 5.5px;
+    margin-top: 3px;
+    margin-bottom: 2px;
     cursor: pointer;
     padding-left: 15px;
+}
+.list-news ul li .item-content ul li a {
+    display: inline-block;
+    width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .list-news ul li .item-content ul li::before {
     content: '·'
