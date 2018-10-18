@@ -38,6 +38,8 @@ li {
 }
 /* å¯¼èˆªæ¡ */
 .nav-wrap {
+    position: fixed;
+    top:0;
     width: 100%;
     max-width: 1920px;
     margin: 0 auto;
@@ -45,6 +47,7 @@ li {
     padding-top: 15px !important;
     padding-bottom: 15px !important;
     background:#ffffff;
+    z-index: 999;
 }
 .nav-active {
     color: #529e0e !important;
@@ -234,6 +237,7 @@ li {
     position: relative;
     margin: 0 auto;
     max-width: 1920px;
+    margin-top: 77px;
 }
 .swiper-container {
     width: 100%;
