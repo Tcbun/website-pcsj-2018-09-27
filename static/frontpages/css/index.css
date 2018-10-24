@@ -684,6 +684,7 @@ form button {
 
 .yd-wrap a {
     float: left;
+    border-radius: 50px;
 }
 
 .mr2667 {
@@ -691,7 +692,7 @@ form button {
 }
 
 .yd-item:hover {
-    box-shadow: 0 2px 21px 1px rgba(208, 208, 208, 0.9);
+    /* box-shadow: 0 2px 21px 1px rgba(208, 208, 208, 0.9); */
     transition: all .8s;
 }
 

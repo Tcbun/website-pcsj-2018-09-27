@@ -46,7 +46,7 @@ $(function () {
 $(".nav ul li").hover(function () {
     $(this).find(".down-menu").fadeIn();
 }, function () {
-    $(this).find(".down-menu").css("display","none");
+    $(this).find(".down-menu").css("display", "none");
 })
 //banner中的马上报价
 $(function () {
@@ -197,4 +197,20 @@ $(function () {
         }
     }
     $("#customer-area").bind("blur", addM3);
+})
+// banner下面的4块导航
+$(".yd-wrap a").hover(function () {
+    $(this).stop().animate({
+        "margin-top": "-10px",
+    }, 1000).css({
+        "box-shadow": "0 2px 21px 1px rgba(208, 208, 208, 0.9)"
+    })
+}, function () {
+    $(this).stop().animate({
+        "margin-top": "0px"
+    }, 500,function(){
+        $(this).css({
+            "box-shadow": "none"
+        })
+    })
 })

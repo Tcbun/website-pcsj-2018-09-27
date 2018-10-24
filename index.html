@@ -878,25 +878,30 @@
         var friendsHeight = 712;
         var newsHeight = 724;
         var footerHeight = 225;
+        var timer = null;
+
         $(window).scroll(function (event) {
-            if ($(this).scrollTop() >= navHeight + bannerHeight + ydHeight / 2) {
-                $(".case-lazy").lazyload({});
-            }
-            if ($(this).scrollTop() >= navHeight + bannerHeight + ydHeight + customerHeight / 2) {
-                $(".designer-lazy").lazyload({})
-            }
-            if ($(this).scrollTop() >= navHeight + bannerHeight + ydHeight + customerHeight + designerHeight / 2) {
-                $(".scene-lazy").lazyload({})
-            }
-            if ($(this).scrollTop() >= navHeight + bannerHeight + ydHeight + customerHeight + designerHeight + sceneHeight / 2) {
-                $(".server-lazy").lazyload({})
-            }
-            if ($(this).scrollTop() >= navHeight + bannerHeight + ydHeight + customerHeight + designerHeight + sceneHeight + getpriceHeight + VRHeight / 2) {
-                $(".friends-lazy").lazyload({})
-            }
-            if ($(this).scrollTop() >= navHeight + bannerHeight + ydHeight + customerHeight + designerHeight + sceneHeight + getpriceHeight + VRHeight + friendsHeight / 2) {
-                $(".news-lazy").lazyload({})
-            }
+            clearTimeout(timer)
+            timer = setTimeout(function () {
+                if ($(this).scrollTop() >= navHeight + bannerHeight + ydHeight / 2) {
+                    $(".case-lazy").lazyload({});
+                }
+                if ($(this).scrollTop() >= navHeight + bannerHeight + ydHeight + customerHeight / 2) {
+                    $(".designer-lazy").lazyload({})
+                }
+                if ($(this).scrollTop() >= navHeight + bannerHeight + ydHeight + customerHeight + designerHeight / 2) {
+                    $(".scene-lazy").lazyload({})
+                }
+                if ($(this).scrollTop() >= navHeight + bannerHeight + ydHeight + customerHeight + designerHeight + sceneHeight / 2) {
+                    $(".server-lazy").lazyload({})
+                }
+                if ($(this).scrollTop() >= navHeight + bannerHeight + ydHeight + customerHeight + designerHeight + sceneHeight + getpriceHeight + VRHeight / 2) {
+                    $(".friends-lazy").lazyload({})
+                }
+                if ($(this).scrollTop() >= navHeight + bannerHeight + ydHeight + customerHeight + designerHeight + sceneHeight + getpriceHeight + VRHeight + friendsHeight / 2) {
+                    $(".news-lazy").lazyload({})
+                }
+            },50)
         })
     })
 </script>
