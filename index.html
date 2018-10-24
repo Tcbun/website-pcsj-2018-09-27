@@ -614,7 +614,7 @@
             <div class="friends-nav">
                 <ul class="clearfix">
                     <li>
-                        <img class="friends-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/logo-bd.jpg"
+                        <img class="friends-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/logo-hg.jpg"
                             alt="品创饰家-合作品牌">
                     </li>
                     <li>
@@ -622,11 +622,11 @@
                             alt="品创饰家-合作品牌">
                     </li>
                     <li>
-                        <img class="friends-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/logo-dw.jpg"
+                        <img class="friends-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/logo-hj.jpg"
                             alt="品创饰家-合作品牌">
                     </li>
                     <li>
-                        <img class="friends-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/logo-dmfl.jpg"
+                        <img class="friends-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/logo-dp.jpg"
                             alt="品创饰家-合作品牌">
                     </li>
                     <li>
@@ -634,7 +634,7 @@
                             alt="品创饰家-合作品牌">
                     </li>
                     <li>
-                        <img class="friends-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/logo-dlg.jpg"
+                        <img class="friends-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/logo-dlx.jpg"
                             alt="品创饰家-合作品牌">
                     </li>
                     <li>
@@ -646,6 +646,26 @@
                             alt="品创饰家-合作品牌">
                     </li>
                     <li>
+                        <img class="friends-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/logo-tbb.jpg"
+                            alt="品创饰家-合作品牌">
+                    </li>
+                    <li>
+                        <img class="friends-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/logo-pld.jpg"
+                            alt="品创饰家-合作品牌">
+                    </li>
+                    <li>
+                        <img class="friends-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/logo-qg.jpg"
+                            alt="品创饰家-合作品牌">
+                    </li>
+                    <li>
+                        <img class="friends-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/logo-gz.jpg"
+                            alt="品创饰家-合作品牌">
+                    </li>
+                    <li>
+                        <img class="friends-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/logo-sgb.jpg"
+                            alt="品创饰家-合作品牌">
+                    </li>
+                    <li>
                         <img class="friends-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/logo-flp.jpg"
                             alt="品创饰家-合作品牌">
                     </li>
@@ -654,23 +674,7 @@
                             alt="品创饰家-合作品牌">
                     </li>
                     <li>
-                        <img class="friends-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/logo-pes.jpg"
-                            alt="品创饰家-合作品牌">
-                    </li>
-                    <li>
-                        <img class="friends-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/logo-pld.jpg"
-                            alt="品创饰家-合作品牌">
-                    </li>
-                    <li>
-                        <img class="friends-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/logo-qgdl.jpg"
-                            alt="品创饰家-合作品牌">
-                    </li>
-                    <li>
-                        <img class="friends-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/logo-sn.jpg"
-                            alt="品创饰家-合作品牌">
-                    </li>
-                    <li>
-                        <img class="friends-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/logo-sgb.jpg"
+                        <img class="friends-lazy" src="static/frontpages/images/index/loading.gif" data-original="static/frontpages/images/index/logo-wx.jpg"
                             alt="品创饰家-合作品牌">
                     </li>
                 </ul>
@@ -849,20 +853,31 @@
         direction: 'horizontal',
         autoplay: true
     })
+    // 合作品牌swiper
+    var swiperFriend = new Swiper('.swiper-friend', {
+        direction: 'horizontal',
+        autoplay: true,
+        loop: false,
+        on: {
+            slideChange: function () {
+                $(".friends-lazy").lazyload({})
+            },
+        },
+    })
     //图片懒加载
     $(document).ready(function () {
-        let navHeight = 77;
-        let bannerHeight = 680;
-        let ydHeight = 216;
-        let customerHeight = 806;
-        let designerHeight = 743;
-        let sceneHeight = 700;
-        let serverHeight = 494;
-        let getpriceHeight = 360;
-        let VRHeight = 736;
-        let friendsHeight = 712;
-        let newsHeight = 724;
-        let footerHeight = 225;
+        var navHeight = 77;
+        var bannerHeight = 680;
+        var ydHeight = 216;
+        var customerHeight = 806;
+        var designerHeight = 743;
+        var sceneHeight = 700;
+        var serverHeight = 494;
+        var getpriceHeight = 360;
+        var VRHeight = 736;
+        var friendsHeight = 712;
+        var newsHeight = 724;
+        var footerHeight = 225;
         $(window).scroll(function (event) {
             if ($(this).scrollTop() >= navHeight + bannerHeight + ydHeight / 2) {
                 $(".case-lazy").lazyload({});

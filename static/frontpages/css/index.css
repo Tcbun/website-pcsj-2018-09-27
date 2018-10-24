@@ -245,10 +245,10 @@ li {
     margin: 0 auto;
     background: #f2f2f2;
 } 
-.swiper-slide img {
+/* .swiper-slide img {
     width: 100%;
     height: 100%;
-}
+} */
 .lunhuan .lunhuan_main {
     width: 100%;
     margin: 0 auto;
@@ -1410,10 +1410,15 @@ form button {
 .friends-top p {
     color: #999;
 }
+.friends-nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 .friends-nav ul li {
-    width: 242px;
-    height: 154px;
-    border: 2px solid #999;
+    width: 140px;
+    height: 88px;
     float: left;
     margin-right: -2px;
     margin-top: -2px;
@@ -1421,6 +1426,11 @@ form button {
     align-items: center;
     text-align: center;
     justify-content: center;
+    margin-right: 11.4px;
+    margin-bottom: 11.4px;
+}
+.friends-nav ul li:nth-of-type(8n+8) {
+    margin-right: 0;
 }
 .friends-nav {
     margin-top: 52px;
