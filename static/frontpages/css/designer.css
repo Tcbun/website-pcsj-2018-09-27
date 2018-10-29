@@ -235,7 +235,7 @@
     text-overflow: ellipsis;
     overflow: hidden;
 }
-.works-list a {
+.works-list a:last-child {
     position: absolute;
     right: 20px;
     bottom: 20px;
