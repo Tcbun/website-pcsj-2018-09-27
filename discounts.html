@@ -13,6 +13,33 @@
 </head>
 
 <body>
+    <!-- appointment -->
+    <div class="appointment-dialog-wrap">
+        <div class="appointment-dialog">
+            <img src="./static/frontpages/images/scene/close.png" alt="" class="appointment-close">
+            <img src="./static/frontpages/images/scene/img.jpg" alt="">
+            <div class="appointment-form">
+                <h3>参观工地</h3>
+                <form action="">
+                    <input type="text" placeholder="姓名" onkeyup="value=value.replace(/[^\D]/g,'')">
+                    <p>*姓名不能为空*</p>
+                    <input type="text" placeholder="电话号码" onkeyup="value=value.replace(/[^\d]/g,'')">
+                    <p>*号码错误*</p>
+                </form>
+                <h3>5秒填写信息，立即预约</h3>
+                <button type="button">确定</button>
+            </div>
+            <div class="appointment-success">
+                <h3>信息提交成功</h3>
+                <p>姓名：<span></span></p>
+                <p>联系电话：<span></span></p>
+                <h3>耐心等待，我们即将联系到您</h3>
+                <button>确定</button>
+            </div>
+        </div>
+    </div>
+    <!-- appointment end -->
+
     <!-- 导航栏 -->
     <div class="nav-wrap">
         <div class="nav clearfix">
@@ -137,6 +164,7 @@
                         <button>免费量房</button>
                     </ul>
                 </div>
+                
             </div>
         </div>
     </div>
@@ -170,28 +198,38 @@
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img src="static/frontpages/images/discounts/xfm.png" alt="品创饰家一对一设计" width="150" height="150">
-                            <h3>徐方敏</h3>
-                            <p>工作经验：7年</p>
-                            <p>擅长风格：美式、现代、欧式</p>
+                            <a href="">
+                                <img src="static/frontpages/images/discounts/xfm.png" alt="品创饰家一对一设计" width="150"
+                                    height="150">
+                                <h3>徐方敏</h3>
+                                <p>工作经验：7年</p>
+                                <p>擅长风格：美式、现代、欧式</p>
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <img src="static/frontpages/images/discounts/yzl.png" alt="品创饰家一对一设计" width="150" height="150">
-                            <h3>叶子龙</h3>
-                            <p>工作经验：4年</p>
-                            <p>擅长风格：美式、中式、现代、欧式</p>
+                            <a href="">
+                                <img src="static/frontpages/images/discounts/yzl.png" alt="品创饰家一对一设计" width="150"
+                                    height="150">
+                                <h3>叶子龙</h3>
+                                <p>工作经验：4年</p>
+                                <p>擅长风格：美式、中式、现代、欧式</p>
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <img src="static/frontpages/images/discounts/zy.png" alt="品创饰家一对一设计" width="150" height="150">
-                            <h3>周盈</h3>
-                            <p>工作经验：12年</p>
-                            <p>擅长风格：美式、中式、现代、欧式</p>
+                            <a href="">
+                                <img src="static/frontpages/images/discounts/zy.png" alt="品创饰家一对一设计" width="150" height="150">
+                                <h3>周盈</h3>
+                                <p>工作经验：12年</p>
+                                <p>擅长风格：美式、中式、现代、欧式</p>
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <img src="static/frontpages/images/discounts/ll.png" alt="品创饰家一对一设计" width="150" height="150">
-                            <h3>林亮</h3>
-                            <p>工作经验：8年</p>
-                            <p>擅长风格：美式、中式、现代、欧式</p>
+                            <a href="">
+                                <img src="static/frontpages/images/discounts/ll.png" alt="品创饰家一对一设计" width="150" height="150">
+                                <h3>林亮</h3>
+                                <p>工作经验：8年</p>
+                                <p>擅长风格：美式、中式、现代、欧式</p>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -221,21 +259,21 @@
                         <td>
                             装修地区
                             </th>
-                            <td>
-                                小区名称
-                            </td>
-                            <td>
-                                装修面积
-                            </td>
-                            <td>
-                                户型
-                            </td>
-                            <td>
-                                装修预算
-                            </td>
-                            <td>
-                                申请时间
-                            </td>
+                        <td>
+                            小区名称
+                        </td>
+                        <td>
+                            装修面积
+                        </td>
+                        <td>
+                            户型
+                        </td>
+                        <td>
+                            装修预算
+                        </td>
+                        <td>
+                            申请时间
+                        </td>
                     </tr>
                 </thead>
                 <tbody>
@@ -497,7 +535,7 @@
         direction: "horizontal",
         slidesPerView: 4,
         slidesPerGroup: 1,
-        loop:true
+        loop: true
     })
     $(function () {
         $(".btn-left").click(function () {

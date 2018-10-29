@@ -208,9 +208,10 @@ $(".yd-wrap a").hover(function () {
 }, function () {
     $(this).stop().animate({
         "margin-top": "0px"
-    }, 500,function(){
+    }, 500, function () {
         $(this).css({
             "box-shadow": "none"
         })
     })
 })
+

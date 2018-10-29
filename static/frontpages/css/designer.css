@@ -230,6 +230,10 @@
 .works-list ul li h6,
 .works-list ul li p {
     margin-left: 10px;
+    width: 140px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 .works-list a {
     position: absolute;

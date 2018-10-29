@@ -47,6 +47,18 @@
 .four-tabs ul li:nth-of-type(4) {
     border-bottom:2px solid #ffffff;
 }
+.bb1 {
+    border-bottom: 2px solid #b7bef2;
+}
+.bb2 {
+    border-bottom: 2px solid #a8e8e5;
+}
+.bb3 {
+    border-bottom: 2px solid #f9d99e;
+}
+.bb4 {
+    border-bottom: 2px solid #f2adc9;
+}
 /* 四个标签结束 */
 
 /* 学习文章列表 */
