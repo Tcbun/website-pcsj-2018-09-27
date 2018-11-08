@@ -12,6 +12,34 @@
 </head>
 
 <body>
+
+    <!-- appointment -->
+    <div class="appointment-dialog-wrap">
+        <div class="appointment-dialog">
+            <img src="./static/frontpages/images/scene/close.png" alt="" class="appointment-close">
+            <img src="./static/frontpages/images/scene/img.jpg" alt="">
+            <div class="appointment-form">
+                <h3>参观工地</h3>
+                <form action="">
+                    <input type="text" placeholder="姓名" onkeyup="value=value.replace(/[^\D]/g,'')">
+                    <p>*姓名不能为空*</p>
+                    <input type="text" placeholder="电话号码" onkeyup="value=value.replace(/[^\d]/g,'')">
+                    <p>*号码错误*</p>
+                </form>
+                <h3>5秒填写信息，立即预约</h3>
+                <button type="button">确定</button>
+            </div>
+            <div class="appointment-success">
+                <h3>信息提交成功</h3>
+                <p>姓名：<span></span></p>
+                <p>联系电话：<span></span></p>
+                <h3>耐心等待，我们即将联系到您</h3>
+                <button>确定</button>
+            </div>
+        </div>
+    </div>
+    <!-- appointment end -->
+
     <!-- 导航栏 -->
     <div class="nav-wrap">
         <div class="nav clearfix">
@@ -78,13 +106,13 @@
             <ul>
                 <li>
                     <div class="left">
-                        <a href="">
+                        <a>
                             <img src="./static/frontpages/images/index/bteam-xfm.jpg" alt="">
                         </a>
                         <div>
-                            <a href="">
+                            
                                 <h3>设计师：林亮</h3>
-                            </a>
+                            
                             <p>职 务：副总设计师</p>
                             <p>从业经验：8年</p>
                             <p>设计理念：空间自有生命，设计赋予灵魂。</p>
@@ -156,8 +184,8 @@
             <form action="">
                 <input type="text" placeholder="姓名">
                 <input type="text" placeholder="电话">
+                <button>立即预约</button>
             </form>
-            <button>立即预约</button>
         </div>
     </div>
     <!-- footer -->
@@ -187,5 +215,7 @@
     </div>
     <!-- footer结束 -->
 </body>
+<script src="static/frontpages/js/jquery-1.7.2.min.js"></script>
+<script src="static/frontpages/js/mixin.js"></script>
 
 </html>

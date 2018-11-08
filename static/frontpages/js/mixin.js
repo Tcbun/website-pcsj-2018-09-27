@@ -363,7 +363,7 @@ $(document).ready(function () {
     })
 })
 //立即预约
-$(".appointment,.scene-details button,.Measuring-house-section-process button").click(function () {
+$(".appointment,.scene-details button,.Measuring-house-section-process button,.left button").click(function () {
     $(".appointment-dialog-wrap").fadeIn();
 })
 //关闭按钮
@@ -582,7 +582,7 @@ $(".four-tabs ul li:nth-of-type(4)").hover(function(){
 })
 
 // 分隔符
-// detail.js
+// detail.js                                                                                                          
 
 $(".toggleSlide").click(function () {
     var job = $(this).parent().siblings(".job-intro");
@@ -660,4 +660,14 @@ $(function () {
             $("#toContactus").addClass("nowLocation")
         }
     })
+})
+
+// designerList
+$(".right input").click(function () {
+    $(this).attr("placeholder","");
+    clickNoPlaceholder($(".right input"));
+})
+
+$(".right button").click(function () {
+    Validate($(".right input"))
 })
