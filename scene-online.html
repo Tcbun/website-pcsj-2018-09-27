@@ -24,6 +24,8 @@
                     <p>*姓名不能为空*</p>
                     <input type="text" placeholder="电话号码" onkeyup="value=value.replace(/[^\d]/g,'')">
                     <p>*号码错误*</p>
+                    <input type="text" class="hiddenInput pageName" value="">
+                    <input type="text" class="hiddenInput itemIndex" value="">
                 </form>
                 <h3>5秒填写信息，立即预约</h3>
                 <button type="button">确定</button>
@@ -126,7 +128,7 @@
                 </ul>
             </div>
             <a>
-                <button>预约参观</button>
+                <button data-dingi="234">预约参观</button>
             </a>
         </div>
     </div>

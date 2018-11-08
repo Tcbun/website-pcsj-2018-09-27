@@ -362,10 +362,6 @@ $(document).ready(function () {
         }
     })
 })
-//立即预约
-$(".appointment,.scene-details button,.Measuring-house-section-process button,.left button").click(function () {
-    $(".appointment-dialog-wrap").fadeIn();
-})
 //关闭按钮
 $(".appointment-close").click(function () {
     $(".appointment-form").show();
@@ -673,14 +669,29 @@ $(".right button").click(function () {
 })
 
 // 点击按钮给每个弹框编号
+$('.process-right button').click(function(){
+    var sdfasdf = $(this).data('dingi');
+    $(".pageName").attr("value","在线工地");
+    $(".itemIndex").attr("value",sdfasdf)
+    $(".appointment-dialog-wrap").fadeIn();
+})
+$(".scene-details button").click(function(){
+    var sdfasdf = $(this).data('dingi');
+    $(".pageName").attr("value","在线工地");
+    $(".itemIndex").attr("value",sdfasdf)
+    $(".appointment-dialog-wrap").fadeIn();
+})
 $(".Measuring-house-section-process button").click(function(){
-    $(".appointment-form span").text("1")
+    var sdfasdf = $(this).data('dingi');
+    $(".pageName").attr("value","在线工地");
+    $(".itemIndex").attr("value",sdfasdf)
+    $(".appointment-dialog-wrap").fadeIn();
 })
-$(".process-right button").click(function(){
-    $(".appointment-form span").text("2")
-})
-$(".left div button").click(function(){
-    $(".appointment-form span").text("3")
+$(".left button").click(function () {
+    var sdfasdf = $(this).data('dingi');
+    $(".pageName").attr("value","在线工地");
+    $(".itemIndex").attr("value",sdfasdf)
+    $(".appointment-dialog-wrap").fadeIn();
 })
 // 学装修增加表单验证
 $(".page280-form input").click(function () {

@@ -26,6 +26,8 @@
                     <p>*姓名不能为空*</p>
                     <input type="text" placeholder="电话号码" onkeyup="value=value.replace(/[^\d]/g,'')">
                     <p>*号码错误*</p>
+                    <input type="text" class="hiddenInput pageName" value="">
+                    <input type="text" class="hiddenInput itemIndex" value="">
                 </form>
                 <h3>5秒填写信息，立即预约</h3>
                 <button type="button">确定</button>
@@ -162,7 +164,7 @@
                             <p>3</p>
                             <p>现场沟通了解装修需求</p>
                         </li>
-                        <button>免费量房</button>
+                        <button data-dingi="345">免费量房</button>
                     </ul>
                 </div>
                 

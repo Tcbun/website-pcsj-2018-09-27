@@ -206,7 +206,7 @@
                             <p>风格：简欧</p>
                         </div>
                         <p>地区：天元镇</p>
-                        <button class="appointment">
+                        <button  data-dingi="123">
                             立即预约
                         </button>
                     </div>
@@ -564,11 +564,12 @@
             <div class="appointment-form">
                 <h3>参观工地</h3>
                 <form action="">
-                    <span class="hiddenInput"></span>
                     <input type="text" placeholder="姓名" onkeyup="value=value.replace(/[^\D]/g,'')">
                     <p>*姓名不能为空*</p>
                     <input type="text" placeholder="电话号码" onkeyup="value=value.replace(/[^\d]/g,'')">
                     <p>*号码错误*</p>
+                    <input type="text" class="hiddenInput pageName" value="">
+                    <input type="text" class="hiddenInput itemIndex" value="">
                 </form>
                 <h3>5秒填写信息，立即预约</h3>
                 <button type="button">确定</button>
