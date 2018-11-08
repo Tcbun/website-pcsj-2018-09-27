@@ -671,3 +671,23 @@ $(".right input").click(function () {
 $(".right button").click(function () {
     Validate($(".right input"))
 })
+
+// 点击按钮给每个弹框编号
+$(".Measuring-house-section-process button").click(function(){
+    $(".appointment-form span").text("1")
+})
+$(".process-right button").click(function(){
+    $(".appointment-form span").text("2")
+})
+$(".left div button").click(function(){
+    $(".appointment-form span").text("3")
+})
+// 学装修增加表单验证
+$(".page280-form input").click(function () {
+    $(this).attr("placeholder","");
+    clickNoPlaceholder($(".page280-form input"));
+})
+
+$(".page280-form form button").click(function () {
+    Validate($(".page280-form input"))
+})

@@ -51,7 +51,9 @@ a:hover {
 .pull-right {
     float: right !important;
 }
-
+.hiddenInput {
+    display: none !important;
+}
 /* nav.css */
 /* 导航条 */
 .nav-wrap {
