@@ -94,40 +94,9 @@ $(".side-bottom input").click(function () {
     clickNoPlaceholder($(".side-bottom input"));
 })
 
-function clickNoPlaceholder (input){
-    var inputList = input;
-    inputList.click(function () {
-        $(this).attr("placeholder","");
-    })
-    inputList.eq(0).blur(function () {
-        if ( $(this).val() === "") {
-            $(this).attr("placeholder", "姓名")
-        }
-    })
-    inputList.eq(1).blur(function () {
-        if ( $(this).val() === "") {
-            $(this).attr("placeholder", "联系方式")
-        }
-    })
-}
-
 $(".side-bottom button").click(function () {
     Validate($(".side-bottom input"))
 })
-function Validate(input) {
-    var inputList = input;
-    var regPhone = /^1[3|4|5|7|8][0-9]{9}$/;
-    if (inputList.eq(0).val() !== "") {
-
-    } else {
-        alert("请正确输入您的姓名！")
-    }
-    if (inputList.eq(1).val() !== "" && regPhone.test(inputList.eq(1).val())) {
-
-    } else {
-        alert("请输入正确的手机号码！")
-    }
-}
 
 // 分隔符
 
@@ -154,9 +123,6 @@ function clickNoPlaceholder (input){
         }
     })
 }
-$(".designer-intro-right-bottom button").click(function () {
-    Validate($(".designer-intro-right-bottom input"))
-})
 function Validate(input) {
     var inputList = input;
     var regPhone = /^1[3|4|5|7|8][0-9]{9}$/;
@@ -164,13 +130,23 @@ function Validate(input) {
 
     } else {
         alert("请正确输入您的姓名！")
+        $('form').submit(function(event){
+            event.preventDefault();
+        })
     }
     if (inputList.eq(1).val() !== "" && regPhone.test(inputList.eq(1).val())) {
-
+        //填写Ajax
     } else {
-        alert("请输入正确的手机号码！")
+        alert("请输入正确的手机号码！");
+        $('form').submit(function(event){
+            event.preventDefault();
+        })
     }
 }
+
+$(".designer-intro-right-bottom button").click(function () {
+    Validate($(".designer-intro-right-bottom input"))
+})
 
 // 分隔符
 
@@ -181,39 +157,9 @@ $(".from-in-banner input").click(function () {
     clickNoPlaceholder($(".from-in-banner"));
 })
 
-function clickNoPlaceholder (input){
-    var inputList = input;
-    inputList.click(function () {
-        $(this).attr("placeholder","");
-    })
-    inputList.eq(0).blur(function () {
-        if ( $(this).val() === "") {
-            $(this).attr("placeholder", "姓名")
-        }
-    })
-    inputList.eq(1).blur(function () {
-        if ( $(this).val() === "") {
-            $(this).attr("placeholder", "联系方式")
-        }
-    })
-}
 $(".from-in-banner button").click(function () {
     Validate($(".from-in-banner input"))
 })
-function Validate(input) {
-    var inputList = input;
-    var regPhone = /^1[3|4|5|7|8][0-9]{9}$/;
-    if (inputList.eq(0).val() !== "") {
-
-    } else {
-        alert("请正确输入您的姓名！")
-    }
-    if (inputList.eq(1).val() !== "" && regPhone.test(inputList.eq(1).val())) {
-
-    } else {
-        alert("请输入正确的手机号码！")
-    }
-}
 
 //底部表单验证
 $(".bottom-form-right input").click(function () {
@@ -221,39 +167,9 @@ $(".bottom-form-right input").click(function () {
     clickNoPlaceholder($(".bottom-form-right"));
 })
 
-function clickNoPlaceholder (input){
-    var inputList = input;
-    inputList.click(function () {
-        $(this).attr("placeholder","");
-    })
-    inputList.eq(0).blur(function () {
-        if ( $(this).val() === "") {
-            $(this).attr("placeholder", "姓名")
-        }
-    })
-    inputList.eq(1).blur(function () {
-        if ( $(this).val() === "") {
-            $(this).attr("placeholder", "联系方式")
-        }
-    })
-}
 $(".bottom-form-right button").click(function () {
     Validate($(".bottom-form-right input"))
 })
-function Validate(input) {
-    var inputList = input;
-    var regPhone = /^1[3|4|5|7|8][0-9]{9}$/;
-    if (inputList.eq(0).val() !== "") {
-
-    } else {
-        alert("请正确输入您的姓名！")
-    }
-    if (inputList.eq(1).val() !== "" && regPhone.test(inputList.eq(1).val())) {
-
-    } else {
-        alert("请输入正确的手机号码！")
-    }
-}
 
 // 分隔符
 
@@ -485,39 +401,9 @@ $(".banner-form input").click(function () {
     clickNoPlaceholder($(".banner-form"));
 })
 
-function clickNoPlaceholder (input){
-    var inputList = input;
-    inputList.click(function () {
-        $(this).attr("placeholder","");
-    })
-    inputList.eq(0).blur(function () {
-        if ( $(this).val() === "") {
-            $(this).attr("placeholder", "姓名")
-        }
-    })
-    inputList.eq(1).blur(function () {
-        if ( $(this).val() === "") {
-            $(this).attr("placeholder", "联系方式")
-        }
-    })
-}
 $(".banner-form button").click(function () {
     Validate($(".banner-form input"))
 })
-function Validate(input) {
-    var inputList = input;
-    var regPhone = /^1[3|4|5|7|8][0-9]{9}$/;
-    if (inputList.eq(0).val() !== "") {
-
-    } else {
-        alert("请正确输入您的姓名！")
-    }
-    if (inputList.eq(1).val() !== "" && regPhone.test(inputList.eq(1).val())) {
-
-    } else {
-        alert("请输入正确的手机号码！")
-    }
-}
 
 // 分隔符
 
