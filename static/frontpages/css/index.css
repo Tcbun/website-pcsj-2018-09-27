@@ -697,6 +697,10 @@ form button {
 .yd-item:hover {
     /* box-shadow: 0 2px 21px 1px rgba(208, 208, 208, 0.9); */
     transition: all .8s;
+    -webkit-transition: all .8s;
+    -o-transition: all .8s;
+    -ms-transition: all .8s;
+    -moz-transition: all .8s;
 }
 
 /* å¼•å¯¼åŒºåŸŸç»“æŸ */
