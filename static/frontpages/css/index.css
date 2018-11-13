@@ -622,6 +622,9 @@ form button {
     width: 1200px;
     margin: 0 auto;
     padding-top: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .yd-item {
@@ -629,15 +632,17 @@ form button {
     height: 140px;
     background: #fff;
     padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .yd-item .yd-icon {
     width: 70px;
     height: 70px;
-    float: left;
+    /* float: left; */
     text-align: center;
     color: #1d9d73;
-    padding-top: 20px;
 }
 
 .yd-item .yd-icon i {
