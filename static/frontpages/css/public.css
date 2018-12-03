@@ -259,19 +259,21 @@ a:hover {
     width: 100%;
     background: #f2f2f2;
     text-align: center;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
 }
 .footer-wrap {
     width: 1200px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.footer-wrap div {
-    width: 300px;
-    float: left;
-    padding-top: 60px;
-    font-family: '黑体',sans-serif;
+.footer-wrap  div {
+    width: 1200px;
+    font-family: 'é»‘ä½“',sans-serif;
 }
 .footer-wrap div h2 {
+    padding: 20px;
     font-size: 20px;
 }
 .footer-wrap div p {
@@ -282,6 +284,29 @@ a:hover {
 }
 .item-content ul li time {
     float: right;
-    padding-right: 30px;
+    padding-right: 15px;
 }
-/* footer结束 */
+.link {
+    float: none !important;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.link a {
+    padding-right: 15px;
+}
+.link h2 {
+    padding: 0 !important;
+    font-size: 18px !important;
+}
+.footer-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.index-footer-copyright {
+    color: #000000;
+    padding-top: 20px;
+}
+/* footerç»“æŸ */
